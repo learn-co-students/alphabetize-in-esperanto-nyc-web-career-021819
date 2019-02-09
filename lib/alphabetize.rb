@@ -1,3 +1,3 @@
 def alphabetize(arr)
-  # code here
+  arr.sort_by { |ele| ele.split("").map{ |char| "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".index(char) } }
 end
